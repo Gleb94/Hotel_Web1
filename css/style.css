@@ -11,5 +11,26 @@ body{
 }
 
 .pictured{
-    padding-top: ;
+    padding-top: 33px;
+    padding-bottom: 71px;
+    background: url(../img/Back.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    max-width: 1135px;
+    margin: auto;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.logo{
+    display: inline-block;
+    transform: translateY(-8px);
+    margin-right: 33px;
 }
