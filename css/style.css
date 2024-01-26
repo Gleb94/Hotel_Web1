@@ -7,13 +7,15 @@
 body{
     background-color: white;
     font-family: 'Montserrat', sans-serif;
-    color: #FFFFFF, #FFF4F4, #FDC463;
+    /* color: #FFFFFF, #FFF4F4, #FDC463; */
+    color: #FFFFFF;
 }
 
 .pictured{
     padding-top: 33px;
     padding-bottom: 71px;
-    background: url(../img/Back.png);
+    background-image: url(../img/Back.png);
+    background-color: #FFFFFF;
     background-position: center;
     background-size: cover;
 }
@@ -68,7 +70,7 @@ nav a{
 }
 
 .introduction{
-    padding: 100px;
+    padding: 96px;
     padding-bottom: 205px;
     display: flex;
     justify-content: space-between;
@@ -77,6 +79,19 @@ nav a{
 
 .greering{
     width: 42.5%;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 42px; 
+}
+
+.greeting p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
 }
 
 form{
@@ -143,7 +158,19 @@ select{
     -moz-appearance: none;
     -ms-appearance: none;
     appearance: none;
-    background: url(../images/arrow.svg) no-repeat center;
+    background: url(../img/Vector2.png) no-repeat center;
     background-size: 12px;
     background-position: 97%;
+}
+
+input[type="sabmit"]{
+    width: 100%;
+    background-color: #FFB800;
+    border: none;
+    /* color: #333333; */
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+    margin-bottom: 0;
 }
